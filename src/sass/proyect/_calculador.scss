@@ -1,0 +1,56 @@
+@use 'base/variables' as v;
+.cajones{
+    border-radius: 2rem;
+}
+// caja de resultado
+.resultado{
+    margin-top: 1rem;
+    text-align: center;
+    background-color: v.$morado;
+    color: v.$blanco;
+    padding: 1rem;
+    .titulo{
+        color: rgb(198, 198, 198);
+    }
+    
+}
+.puntaje{
+    width: 20rem;
+    height: 19rem;
+    margin: 0 auto;
+    background-color: #3525ab;
+    border-radius: 10rem;
+    text-align: center;
+    .score{
+        font-size: 7rem;
+        margin:0;
+        padding-top: 4rem;
+    }
+    .comparador{
+        margin: 0;
+        color: rgb(198, 198, 198);
+    }
+}
+.texto_felicitacion{
+    color: rgb(198, 198, 198);
+}
+// caja de habilidades
+// .sumary{
+//     padding: 1rem;
+// }
+// .habilidades{
+//     padding: 2rem;
+//     .campo{
+//         display: flex;
+//         margin-bottom: 1rem;
+//     }
+//     .input{
+//         flex: 3;
+//         width: 7rem; 
+//     }
+//     .label{
+//         flex: 1 0 9rem;
+//         text-align: left;
+//         padding-right: 2rem;
+//     }
+// }

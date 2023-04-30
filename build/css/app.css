@@ -322,58 +322,44 @@ body {
 }
 
 .contenedor {
-  display: flex;
   width: 95%;
   max-width: 90rem;
-  margin: 20rem auto;
+  margin: 0 auto;
+}
+
+.cajones {
+  border-radius: 2rem;
 }
 
 .resultado {
+  margin-top: 1rem;
   text-align: center;
+  background-color: #4b36f0;
   color: #ffffff;
-  background: rgb(18, 65, 232);
-  background: linear-gradient(0deg, rgb(18, 65, 232) 0%, rgb(101, 53, 244) 59%, rgb(121, 45, 253) 100%);
-  height: 50rem;
-  width: 35rem;
-  border-radius: 3rem;
+  padding: 1rem;
 }
-.resultado h2 {
-  color: rgb(201, 201, 201);
-  font-size: 2.2rem;
-  margin: 4rem 0 4rem 0;
+.resultado .titulo {
+  color: rgb(198, 198, 198);
 }
 
 .puntaje {
-  display: flex;
-  flex-direction: column;
-  background: rgb(18, 65, 232);
-  background: linear-gradient(0deg, rgb(18, 65, 232) 0%, rgb(90, 40, 240) 59%, rgb(106, 29, 239) 100%);
-  border-radius: 50%;
   width: 20rem;
-  height: 20rem;
-  margin: 0 auto 4rem auto;
+  height: 19rem;
+  margin: 0 auto;
+  background-color: #3525ab;
+  border-radius: 10rem;
+  text-align: center;
 }
-.puntaje h1 {
-  font-size: 8rem;
-  margin-bottom: 0;
-  margin-top: 4.5rem;
+.puntaje .score {
+  font-size: 7rem;
+  margin: 0;
+  padding-top: 4rem;
 }
-.puntaje p {
-  color: rgb(201, 201, 201);
-  margin-top: 0;
-  font-size: 1.8rem;
+.puntaje .comparador {
+  margin: 0;
+  color: rgb(198, 198, 198);
 }
 
-.felicitacion {
-  width: 27rem;
-  margin: 0 auto;
-}
-.felicitacion h2 {
-  font-size: 3.5rem;
-  color: #ffffff;
-  margin-bottom: 0;
-}
-.felicitacion p {
-  color: rgb(201, 201, 201);
-  font-size: 1.7rem;
+.texto_felicitacion {
+  color: rgb(198, 198, 198);
 }
