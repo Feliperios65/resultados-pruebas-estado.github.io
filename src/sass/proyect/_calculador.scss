@@ -35,22 +35,51 @@
     color: rgb(198, 198, 198);
 }
 // caja de habilidades
-// .sumary{
-//     padding: 1rem;
-// }
-// .habilidades{
-//     padding: 2rem;
-//     .campo{
-//         display: flex;
-//         margin-bottom: 1rem;
-//     }
-//     .input{
-//         flex: 3;
-//         width: 7rem; 
-//     }
-//     .label{
-//         flex: 1 0 9rem;
-//         text-align: left;
-//         padding-right: 2rem;
-//     }
-// }
+.sumary{
+    padding: 1rem;
+}
+.habilidades{
+    padding: 1rem;
+    .campo{
+        display: flex;
+        margin-bottom: 3rem;
+    }
+    .input{
+        flex: 3;
+        border: 1px solid rgb(198, 198, 198);
+        border-radius: 2rem;
+    }
+    .label{
+        flex: 1 0 10rem;
+        text-align: left;
+    }
+    .reaction{
+        color: v.$rojo;
+    }
+    .memory{
+        color: v.$amarillo;
+    }
+    .verbal{
+        color: v.$verde;
+    }
+    .visual{
+        color: v.$morado;
+    }
+}
+//boton sumary
+.boton{
+    background-color: v.$morado;
+    color: v.$blanco;
+    border: none;
+    width: 100%;
+    height: 5rem;
+    border-radius: 2rem;
+}
+// media query para tablet
+@media(min-width: 768px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}

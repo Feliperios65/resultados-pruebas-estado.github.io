@@ -363,3 +363,53 @@ body {
 .texto_felicitacion {
   color: rgb(198, 198, 198);
 }
+
+.sumary {
+  padding: 1rem;
+}
+
+.habilidades {
+  padding: 1rem;
+}
+.habilidades .campo {
+  display: flex;
+  margin-bottom: 3rem;
+}
+.habilidades .input {
+  flex: 3;
+  border: 1px solid rgb(198, 198, 198);
+  border-radius: 2rem;
+}
+.habilidades .label {
+  flex: 1 0 10rem;
+  text-align: left;
+}
+.habilidades .reaction {
+  color: #e74547;
+}
+.habilidades .memory {
+  color: #efad33;
+}
+.habilidades .verbal {
+  color: rgb(43, 218, 171);
+}
+.habilidades .visual {
+  color: #4b36f0;
+}
+
+.boton {
+  background-color: #4b36f0;
+  color: #ffffff;
+  border: none;
+  width: 100%;
+  height: 5rem;
+  border-radius: 2rem;
+}
+
+@media (min-width: 768px) {
+  .contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
