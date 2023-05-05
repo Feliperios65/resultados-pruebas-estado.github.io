@@ -375,6 +375,9 @@ body {
   display: flex;
   margin-bottom: 3rem;
 }
+.habilidades .campo .icono {
+  margin-right: 1rem;
+}
 .habilidades .input {
   flex: 3;
   border: 1px solid rgb(198, 198, 198);
@@ -411,5 +414,8 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+  }
+  .cajones {
+    width: 40rem;
   }
 }

@@ -43,6 +43,9 @@
     .campo{
         display: flex;
         margin-bottom: 3rem;
+        .icono{
+            margin-right: 1rem;
+        }
     }
     .input{
         flex: 3;
@@ -81,5 +84,8 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
+    }
+    .cajones{
+        width: 40rem;
     }
 }
