@@ -331,8 +331,11 @@ body {
   border-radius: 2rem;
 }
 
-.resultado {
+.contenedor {
   margin-top: 1rem;
+}
+
+.resultado {
   text-align: center;
   background-color: #4b36f0;
   color: #ffffff;
@@ -366,6 +369,8 @@ body {
 
 .sumary {
   padding: 1rem;
+  border: 1px solid rgb(198, 198, 198);
+  margin-top: 1rem;
 }
 
 .habilidades {
@@ -379,9 +384,10 @@ body {
   margin-right: 1rem;
 }
 .habilidades .input {
-  flex: 3;
+  text-align: center;
   border: 1px solid rgb(198, 198, 198);
   border-radius: 2rem;
+  width: 100%;
 }
 .habilidades .label {
   flex: 1 0 10rem;
@@ -416,6 +422,9 @@ body {
     gap: 2rem;
   }
   .cajones {
-    width: 40rem;
+    max-width: 40rem;
+  }
+  .sumary {
+    margin: 0;
   }
 }
